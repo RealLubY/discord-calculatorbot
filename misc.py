@@ -15,7 +15,6 @@ class misc(commands.Cog):
         embed1.add_field(name="help", value="shows this command", inline=False)
         embed1.add_field(name="operator", value="shows the supportet operators", inline=False)
         embed1.add_field(name="versions", value="discord.py and python version", inline=False)
-        embed1.add_field(name="Support", value="[Invite the bot](https://discord.com/oauth2/authorize?client_id=407919594305486848&scope=bot&permissions=201326600) - [Support Server](https://discord.gg/bp3HKhc7pQ) - Vote - coming soon", inline=False)
         await ctx.send(embed=embed1)
 
     @commands.command()
